@@ -1,0 +1,118 @@
+/* Estilos para los íconos flotantes */
+.iconos-flotantes {
+    position: fixed;
+    bottom: 130px; /* Ajusta la posición del ícono más arriba desde el borde inferior */
+    right: 20px; /* Aumenta ligeramente la distancia desde el borde derecho */
+    z-index: 100; /* Garantiza que el ícono esté en la parte superior de otros elementos */
+    display: flex;
+    flex-direction: column;
+    animation: float 2s 4 alternate ease-in-out; /* Animación de flotación */
+    gap: 10px; /* Aumenta el espacio entre íconos si hay más de uno */
+    transition: opacity 0.5s ease, visibility 0.5s ease; /* Transición suave para desaparecer */
+    opacity: 1; /* Totalmente visible */
+    visibility: visible; /* Elemento visible */
+}
+/* Estilo para el ícono circular */
+
+.icono-circular {
+    width: 70px;
+    height: 70px;
+    background-color: #25D366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+.icono-circular:hover {
+    background-color: #1ebe57;
+    transform: scale(1.2); 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
+}
+/* Tamaño del ícono de WhatsApp */
+.icono-circular .fab {
+    font-size: 40px;
+    color: white;
+}
+
+
+/* Estilo específico para el ícono de WhatsApp */
+.icono-whatsapp {
+    background-color: #25d366; /* Color oficial de WhatsApp */
+    animation: pulse 2.5s infinite; /* Efecto de pulso */
+}
+
+/* Animación de desvanecimiento para el icono de WhatsApp */
+.icono-whatsapp.fadeOut {
+  animation: fadeOut 0.1s forwards;
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+/* Estilo para los enlaces dentro del ícono circular */
+.icono-circular a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+/* Estilo para la versión móvil */
+@media screen and (max-width: 768px) {
+    .iconos-flotantes {
+        bottom: 80px; /* Ajusta la posición para dispositivos móviles */
+        right: 15px; /* Ajusta la distancia desde el borde derecho */
+    }
+
+    .icono-circular {
+        width: 55px; /* Reduce el tamaño del círculo */
+        height: 55px; /* Reduce el tamaño del círculo */
+    }
+
+    /* Tamaño del ícono de WhatsApp */
+    .icono-circular .fab {
+        font-size: 30px;
+        color: white;
+    }
+}
+
+
+/* Animación de pulso para el ícono de WhatsApp */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Animación de flotación */
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+
+  

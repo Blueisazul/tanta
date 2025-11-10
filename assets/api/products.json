@@ -1,0 +1,583 @@
+[
+    {
+        "slug": "ALFAJOR",
+        "title": "ALFAJOR",
+        "img": "assets/alfajor.png",
+        "price": 4.00,
+        "categoria": "DULCES",
+        "costo": "BAJO",
+        "porcion": "INDIVIDUAL",
+        "entrega": "RETIRO",
+        "preferencia": "VEGAN",
+        "descripcion": "Delicioso alfajor relleno de manjar, perfecto para endulzar tu día."
+    },
+    {
+        "slug": "CARROT CAKE",
+        "title": "CARROT CAKE",
+        "img": "assets/carrot_cake.png",
+        "price": 11.00,
+        "categoria": "DULCES",
+        "costo": "ALTO",
+        "porcion": "MEDIANO",
+        "entrega": "RETIRO",
+        "preferencia": "LACTOSE-FREE",
+        "descripcion": "Bizcocho suave de zanahoria con un toque especiado y cobertura dulce."
+    },
+    {
+        "slug": "CROISSANT",
+        "title": "CROISSANT",
+        "img": "assets/pan_croissant.png",
+        "price": 2.80,
+        "categoria": "BOLLERÍA",
+        "costo": "BAJO",
+        "porcion": "INDIVIDUAL",
+        "entrega": "RETIRO",
+        "preferencia": "LACTOSE-FREE",
+        "descripcion": "Clásico croissant hojaldrado, ligero y con sabor mantequilloso"
+    },
+    {
+        "slug": "EMPANADA DE LOMO",
+        "title": "EMPANADA DE LOMO",
+        "img": "assets/empanada_lomo.png",
+        "price": 7.90,
+        "categoria": "ESPECIALES",
+        "costo": "LEVE",
+        "porcion": "INDIVIDUAL",
+        "entrega": "RETIRO",
+        "preferencia": "LACTOSE-FREE",
+        "descripcion": "Empanada rellena con jugoso lomo saltado, una fusión de sabor criollo."
+    },
+    {
+        "slug": "EMPANADAS",
+        "title": "EMPANADAS",
+        "img": "assets/empanada.png",
+        "price": 7.00,
+        "categoria": "ESPECIALES",
+        "descripcion": "Empanadas tradicionales, ideales para un antojo salado y sabroso."
+    },
+    {
+        "slug": "CHIFÓN DE NARANJA",
+        "title": "CHIFÓN DE NARANJA",
+        "img": "assets/keke_chifonnaranja.png",
+        "price": 22.10,
+        "categoria": "DULCES",
+        "descripcion": "Esponjoso chifón con sabor natural a naranja, suave y aromático."
+    },
+    {
+        "slug": "CHOCO KEKE",
+        "title": "CHOCO KEKE",
+        "img": "assets/keke_choco.png",
+        "price": 13.90,
+        "categoria": "DULCES",
+        "descripcion": "Keke de chocolate húmedo y delicioso, ideal para los amantes del cacao."
+    },
+    {
+        "slug": "KEKE GLASEADO",
+        "title": "KEKE GLASEADO",
+        "img": "assets/keke_glaseado.png",
+        "price": 14.90,
+        "categoria": "DULCES",
+        "descripcion": "Keke suave con cobertura glaseada que le da un toque dulce y crujiente."
+    },
+    {
+        "slug": "KEKE MARMOLEADO",
+        "title": "KEKE MARMOLEADO",
+        "img": "assets/keke_marmoleado.png",
+        "price": 12.00,
+        "categoria": "DULCES",
+        "descripcion": "Delicioso bizcocho de vainilla y chocolate en un suave marmoleado."
+    },
+    {
+        "slug": "KEKE DE NARANJA",
+        "title": "KEKE DE NARANJA",
+        "img": "assets/keke_naranja.png",
+        "price": 12.20,
+        "categoria": "DULCES",
+        "descripcion": "Keke con un fresco sabor a naranja, perfecto para acompañar el café."
+    },
+    {
+        "slug": "KEKE DE VAINILLA",
+        "title": "KEKE DE VAINILLA",
+        "img": "assets/keke_vainilla.png",
+        "price": 12.60,
+        "categoria": "DULCES",
+        "descripcion": "Keke clásico de vainilla, suave y esponjoso, ideal para cualquier momento."
+    },
+    {
+        "slug": "KEKE VAINILLA MANJAR",
+        "title": "KEKE VAINILLA MANJAR",
+        "img": "assets/keke_vainillamanjar.png",
+        "price": 13.90,
+        "categoria": "DULCES",
+        "descripcion": "Keke de vainilla con relleno de manjar, una combinación irresistible."
+    },
+    {
+        "slug": "MIL HOJAS",
+        "title": "MIL HOJAS",
+        "img": "assets/milhojas.png",
+        "price": 6.00,
+        "categoria": "BOLLERÍA",
+        "descripcion": "Crujiente y cremoso postre de capas de hojaldre con relleno dulce."
+    },
+    {
+        "slug": "PAN ÁRABE BLANCO",
+        "title": "PAN ÁRABE BLANCO",
+        "img": "assets/pan_arabe.png",
+        "price": 2.50,
+        "categoria": "PAN SALUDABLE",
+        "costo": "BAJO",
+        "descripcion": "Pan árabe suave y ligero, ideal para wraps o acompañar tus comidas."
+    },
+    {
+        "slug": "ÁRABE INTEGRAL",
+        "title": "ÁRABE INTEGRAL",
+        "img": "assets/pan_arabeintegral.png",
+        "price": 2.50,
+        "categoria": "PAN SALUDABLE",
+        "costo": "BAJO",
+        "descripcion": "Versión integral del pan árabe, con más fibra y el mismo delicioso sabor."
+    },
+    {
+        "slug": "PAN CARIOCA",
+        "title": "PAN CARIOCA",
+        "img": "assets/pan_carioca.png",
+        "price": 2.50,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan suave con corteza dorada, perfecto para desayunos o meriendas."
+    },
+    {
+        "slug": "PAN BAGUETTE",
+        "title": "PAN BAGUETTE",
+        "img": "assets/pan_baguette.png",
+        "price": 2.20,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Clásica baguette francesa, crocante por fuera y tierna por dentro."
+    },
+    {
+        "slug": "BATARD MULTIGRANO",
+        "title": "BATARD MULTIGRANO",
+        "img": "assets/pan_batard.png",
+        "price": 9.90,
+        "categoria": "PAN SALUDABLE",
+        "descripcion": "Pan rústico con mezcla de granos, nutritivo y lleno de sabor."
+    },
+    {
+        "slug": "PAN BRIOCHE",
+        "title": "PAN BRIOCHE",
+        "img": "assets/pan_brioche.png",
+        "price": 2.90,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan dulce y esponjoso con un toque de mantequilla, ideal para sandwiches."
+    },
+    {
+        "slug": "PAN CACHITO",
+        "title": "PAN CACHITO",
+        "img": "assets/pan_cachito.png",
+        "price": 2.80,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan artesanal en forma de media luna, suave y con sabor casero."
+    },
+    {
+        "slug": "PAN DE CENTENO",
+        "title": "PAN DE CENTENO",
+        "img": "assets/pan_centeno.png",
+        "price": 5.90,
+        "categoria": "PAN ARTESANAL",
+        "descripcion": "Pan denso y sabroso elaborado con harina de centeno, ideal para un desayuno energético."
+    },
+    {
+        "slug": "PAN CHAPLA",
+        "title": "PAN CHAPLA",
+        "img": "assets/pan_chapla.png",
+        "price": 4.50,
+        "categoria": "PAN SALUDABLE",
+        "costo": "BAJO",
+        "descripcion": "Pan tradicional andino con sabor auténtico y textura firme."
+    },
+    {
+        "slug": "CHOCOKARAMANDUKA",
+        "title": "CHOCOKARAMANDUKA",
+        "img": "assets/pan_chocokaramaduka.png",
+        "price": 4.30,
+        "categoria": "BOLLERÍA",
+        "costo": "BAJO",
+        "descripcion": "Pan dulce relleno de chocolate y caramelo, una explosión de sabor."
+    },
+    {
+        "slug": "PAN CIABATTA",
+        "title": "PAN CIABATTA",
+        "img": "assets/pan_ciabatta.png",
+        "price": 2.80,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan de corteza crujiente y miga aireada, perfecto para sándwiches gourmet."
+    },
+    {
+        "slug": "PAN COLIZA",
+        "title": "PAN COLIZA",
+        "img": "assets/pan_coliza.png",
+        "price": 2.20,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan suave y esponjoso, ideal para acompañar cualquier comida."
+    },
+    {
+        "slug": "PAN FRANCÉS",
+        "title": "PAN FRANCÉS",
+        "img": "assets/pan_frances.png",
+        "price": 2.80,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan crujiente y dorado, un infaltable en cada mesa."
+    },
+    {
+        "slug": "HOGAZA BLANCA",
+        "title": "HOGAZA BLANCA",
+        "img": "assets/pan_hogazablanca.png",
+        "price": 6.90,
+        "categoria": "PAN SALUDABLE",
+        "descripcion": "Pan rústico de miga blanca, ideal para compartir."
+    },
+    {
+        "slug": "HOGAZA MUESLI",
+        "title": "HOGAZA MUESLI",
+        "img": "assets/pan_hogazamuesli.png",
+        "price": 9.90,
+        "categoria": "PAN SALUDABLE",
+        "descripcion": "Pan nutritivo con frutas secas, avena y semillas."
+    },
+    {
+        "slug": "HOGAZA MULTICEREAL",
+        "title": "HOGAZA MULTICEREAL",
+        "img": "assets/pan_hogazamulticereal.png",
+        "price": 9.90,
+        "categoria": "PAN SALUDABLE",
+        "descripcion": "Pan saludable con mezcla de cereales y textura rústica."
+    },
+    {
+        "slug": "PAN INTEGRAL",
+        "title": "PAN INTEGRAL",
+        "img": "assets/pan_integral.png",
+        "price": 2.80,
+        "categoria": "PAN SALUDABLE",
+        "costo": "BAJO",
+        "descripcion": "Pan elaborado con harina integral, alto en fibra y sabor."
+    },
+    {
+        "slug": "KARAMANDUKA",
+        "title": "KARAMANDUKA",
+        "img": "assets/pan_karamaduka.png",
+        "price": 4.50,
+        "categoria": "BOLLERÍA",
+        "costo": "BAJO",
+        "descripcion": "Panecillo dulce con toques de manjar y cobertura dorada, una delicia tradicional."
+    },
+    {
+        "slug": "MINI CACHITO",
+        "title": "MINI CACHITO",
+        "img": "assets/pan_minicachito.png",
+        "price": 8.60,
+        "categoria": "PAN ARTESANAL",
+        "descripcion": "Mini versión del clásico cachito, perfecto para compartir o disfrutar como snack."
+    },
+    {
+        "slug": "MINI CROISSANT",
+        "title": "MINI CROISSANT",
+        "img": "assets/pan_minicroissant.png",
+        "price": 2.10,
+        "categoria": "BOLLERÍA",
+        "costo": "BAJO",
+        "descripcion": "Mini croissant hojaldrado con sabor mantequilloso, ideal para acompañar un café."
+    },
+    {
+        "slug": "PAN MULTICEREAL",
+        "title": "PAN MULTICEREAL",
+        "img": "assets/pan_multicereal.png",
+        "price": 5.90,
+        "categoria": "PAN SALUDABLE",
+        "descripcion": "Pan nutritivo elaborado con una mezcla de cereales ricos en fibra y sabor."
+    },
+    {
+        "slug": "PETIT PAN",
+        "title": "PETIT PAN",
+        "img": "assets/pan_petit.png",
+        "price": 7.90,
+        "categoria": "PAN ARTESANAL",
+        "descripcion": "Delicados panecillos estilo francés, suaves y perfectos para acompañar cualquier comida."
+    },
+    {
+        "slug": "PAN PIZZA",
+        "title": "PAN PIZZA",
+        "img": "assets/pan_pizza.png",
+        "price": 4.40,
+        "categoria": "PAN ARTESANAL",
+        "costo": "BAJO",
+        "descripcion": "Pan base tipo pizza, crujiente por fuera y suave por dentro, ideal para toppings."
+    },
+    {
+        "slug": "PAN YEMA",
+        "title": "PAN YEMA",
+        "img": "assets/pan_yema.png",
+        "price": 2.80,
+        "categoria": "PAN SALUDABLE",
+        "costo": "BAJO",
+        "descripcion": "Pan suave y dorado elaborado con yema de huevo, ideal para desayunos nutritivos."
+    },
+    {
+        "slug": "PIE DE FRUTAS",
+        "title": "PIE DE FRUTAS",
+        "img": "assets/pie_frutas.png",
+        "price": 48.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "PIE DE MANZANA",
+        "title": "PIE DE MANZANA",
+        "img": "assets/pie_manzana.png",
+        "price": 25.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "PIONONO CACAO",
+        "title": "PIONONO CACAO",
+        "img": "assets/alfajor.png",
+        "price": 110.0,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "PIONONO CLÁSICO",
+        "title": "PIONONO CLÁSICO",
+        "img": "assets/pionono_clasico.png",
+        "price": 19.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "PIONONO DE FRESA",
+        "title": "PIONONO DE FRESA",
+        "img": "assets/pionono_fresa.png",
+        "price": 20.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "PIONONO MANJAR",
+        "title": "PIONONO MANJAR",
+        "img": "assets/pionono_manjar.png",
+        "price": 37.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "PUDDING DINEAPPLE",
+        "title": "PUDDING DINEAPPLE",
+        "img": "assets/pudding_pineapple.png",
+        "price": 13.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "PASTEL RED VELVET",
+        "title": "PASTEL RED VELVET",
+        "img": "assets/red_velvet.png",
+        "price": 8.00,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "ROSQUITAS",
+        "title": "ROSQUITAS",
+        "img": "assets/rosquitas.png",
+        "price": 2.50,
+        "categoria": "BOLLERÍA",
+        "costo": "BAJO"
+    },
+    {
+        "slug": "TARTA ÁRANDANOS",
+        "title": "TARTA ÁRANDANOS",
+        "img": "assets/tarta_arandanos.png",
+        "price": 8.50,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "TARTA DE MANZANA",
+        "title": "TARTA DE MANZANA",
+        "img": "assets/tarta_manzana.png",
+        "price": 8.00,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "PASTEL DE ARANDANO",
+        "title": "PASTEL DE ARANDANO",
+        "img": "assets/torta_arandano.png",
+        "price": 8.00,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "CANDY CAKE",
+        "title": "CANDY CAKE",
+        "img": "assets/torta_candycake.png",
+        "price": 62.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "TORTA CARROT CAKE",
+        "title": "TORTA CARROT CAKE",
+        "img": "assets/torta_carrotcake.png",
+        "price": 70.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "CHEESECAKE SAUCO",
+        "title": "CHEESECAKE SAUCO",
+        "img": "assets/torta_cheesecakesauco.png",
+        "price": 59.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "TORTA DE CHIRIMOYA",
+        "title": "TORTA DE CHIRIMOYA",
+        "img": "assets/torta_chirimoya.png",
+        "price": 75.00,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA CHOCO COCO",
+        "title": "TORTA CHOCO COCO",
+        "img": "assets/torta_chocococo.png",
+        "price": 8.00,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA DE CHOCOLATE",
+        "title": "TORTA DE CHOCOLATE",
+        "img": "assets/torta_chocolate.png",
+        "price": 59.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "CHOCO TRES LECHES",
+        "title": "CHOCO TRES LECHES",
+        "img": "assets/torta_chocotresleches.png",
+        "price": 71.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "DULCE DE LECHE",
+        "title": "DULCE DE LECHE",
+        "img": "assets/torta_dulceleche.png",
+        "price": 70.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA HELADA",
+        "title": "TORTA HELADA",
+        "img": "assets/torta_helada.png",
+        "price": 38.40,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA DE LÚCUMA",
+        "title": "TORTA DE LÚCUMA",
+        "img": "assets/torta_lucuma.png",
+        "price": 54.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "MARACU TRES LECHES",
+        "title": "MARACU TRES LECHES",
+        "img": "assets/torta_maracutreslechess.png",
+        "price": 60.70,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA DE MARACUYÁ",
+        "title": "TORTA DE MARACUYÁ",
+        "img": "assets/torta_maracuya.png",
+        "price": 55.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "MOUSSE CHOCOLATE",
+        "title": "MOUSSE CHOCOLATE",
+        "img": "assets/torta_moussechocolate.png",
+        "price": 64.90,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "TORTA DE NUECES",
+        "title": "TORTA DE NUECES",
+        "img": "assets/torta_nueces.png",
+        "price": 76.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "PINK VELVET",
+        "title": "PINK VELVET",
+        "img": "assets/torta_pinkvelvet.png",
+        "price": 59.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA RED VELVET",
+        "title": "TORTA RED VELVET",
+        "img": "assets/torta_redvelvet.png",
+        "price": 59.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA SELVA NEGRA",
+        "title": "TORTA SELVA NEGRA",
+        "img": "assets/torta_selva.png",
+        "price": 69.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "SELVA TRES LECHES",
+        "title": "SELVA TRES LECHES",
+        "img": "assets/torta_selvatresleches.png",
+        "price": 56.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TIRAMISÚ",
+        "title": "TIRAMISÚ",
+        "img": "assets/torta_tiramisu.png",
+        "price": 64.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA TRES LECHES",
+        "title": "TORTA TRES LECHES",
+        "img": "assets/torta_tresleches.png",
+        "price": 44.00,
+        "categoria": "DULCES"
+    },
+    {
+        "slug": "TRES LECHES COCO",
+        "title": "TRES LECHES COCO",
+        "img": "assets/torta_treslechescoco.png",
+        "price": 62.80,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TRES LECHES COLADA",
+        "title": "TRES LECHES COLADA",
+        "img": "assets/torta_treslechescolda.png",
+        "price": 51.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TRES LECHES SAUCO",
+        "title": "TRES LECHES SAUCO",
+        "img": "assets/torta_treslechessauco.png",
+        "price": 51.90,
+        "categoria": "ESPECIALES"
+    },
+    {
+        "slug": "TORTA TRUFADA",
+        "title": "TORTA TRUFADA",
+        "img": "assets/torta_trufada.png",
+        "price": 66.90,
+        "categoria": "ESPECIALES"
+    }
+]
